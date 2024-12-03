@@ -1,5 +1,3 @@
-# ImageForensicsUsingMetaData
-
 # Image Forensics Using Metadata
 
 ## Project Overview
@@ -29,6 +27,7 @@ Manual analysis of metadata is prone to errors and inefficiencies. This project 
   - GPSInfo: Geolocation data (latitude, longitude, altitude).
   - DateTimeOriginal: Timestamp of the original capture.
 - **Output**: Structured metadata for analysis.
+- [Click Here For code](https://github.com/raja045/ImageForensicsUsingMetaData/blob/main/ExifDataExtraction.ipynb)
 
 ### 2. Anomaly Detection
 - **Model Used**: Isolation Forest.
@@ -37,12 +36,13 @@ Manual analysis of metadata is prone to errors and inefficiencies. This project 
   - **Geospatial Information**: Inconsistent GPS data.
   - **File Size**: Deviations indicating editing or compression.
   - **Date Shot**: Irregular shooting times.
-
+- [click here for code](https://github.com/raja045/ImageForensicsUsingMetaData/blob/main/anomalydetected.ipynb)
+  
 ### 3. Geospatial Visualization
 - **Tools Used**:
   - **Matplotlib** & **Seaborn**: Data plots.
   - **Folium**: Interactive maps for GPS data.
-
+- [click here for code](https://github.com/raja045/ImageForensicsUsingMetaData/blob/main/AnamolyDetected2.ipynb)
 ---
 
 ## Technologies Used
@@ -66,8 +66,8 @@ The final dataset includes the following columns:
 - Device
 - File Size (KB)
 - Resolution
-- Time Difference (Days)
-- Anomaly
+ 
+![image](https://github.com/user-attachments/assets/07295acc-01a2-4208-81d9-ddee761e7ff8)
 
 ---
 
@@ -78,8 +78,9 @@ The final dataset includes the following columns:
 3. **Location Inconsistencies**: Mismatched GPS data.
 
 ### Visual Representations
-![Time Gaps](images/time_gaps.png)  
-![Location Anomalies](images/location_anomalies.png)
+![Time Gaps](https://github.com/user-attachments/assets/f80b4910-6f97-4d66-89ec-2a20fd03dc40)
+![Location Anomalies](https://github.com/user-attachments/assets/e574c4bb-4260-47a5-94ad-59641ddabd97)
+
 
 ---
 
@@ -95,4 +96,3 @@ The project successfully demonstrated how metadata extraction, anomaly detection
 4. Caleb Riggs et al. “Image Mapping through Metadata”. In: *3rd International Conference on Security of Smart Cities, Industrial Control System and Communications* (2018).
 5. Evagelos Varthis et al. “Automatic metadata extraction via image processing using Migne’s Patrologia Graeca”. In: *International Journal of Metadata, Semantics and Ontologies* (2020).
  
-
